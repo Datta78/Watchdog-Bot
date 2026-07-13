@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automation Bot Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Personal Automation Bot</h1>
+    <p class="subtitle">Daily checks for GitHub, weather, and more</p>
+  </header>
+
+  <main class="dashboard">
+
+    <section class="card" id="github-card">
+      <h2>GitHub Activity</h2>
+      <p class="label">Contributions Today</p>
+      <p class="value" id="github-count">--</p>
+      <p class="timestamp" id="github-updated">Not checked yet</p>
+    </section>
+
+    <section class="card" id="weather-card">
+      <h2>Weather</h2>
+      <p class="label" id="weather-city">--</p>
+      <p class="value" id="weather-temp">--°C</p>
+      <p class="timestamp" id="weather-condition">Not checked yet</p>
+    </section>
+
+    <section class="card" id="status-card">
+      <h2>Last Sync</h2>
+      <p class="value" id="last-checked">--</p>
+      <button id="refresh-btn">Check Now</button>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Built by Dattatray Bhosale</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
