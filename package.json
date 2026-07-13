@@ -1,0 +1,30 @@
+{
+  "name": "personal-automation-bot",
+  "version": "1.0.0",
+  "description": "A daily automation bot that checks GitHub streak, weather, and website updates, then sends alerts via Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "automation",
+    "bot",
+    "cron",
+    "telegram",
+    "github",
+    "weather"
+  ],
+  "author": "Dattatray Bhosale",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
