@@ -46,3 +46,4 @@ automation-bot/
 
 ## Status
 Work in progress — core logic in `services/` is currently placeholder and being implemented step by step.
+for people who like me who forgot about things
